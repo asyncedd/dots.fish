@@ -12,6 +12,7 @@ It in general should be quite similar to stock Fish but with some nice sugar :)
 - Just [fzf](https://github.com/junegunn/fzf)!
 - Configured vi mode!
 - Fancy `ls` with [lsd](https://github.com/lsd-rs/lsd)
+- Colored `tree` `fd` `bfs` and `dust` with [vivid](https://github.com/sharkdp/vivid)
 - Automagically `ls` on `cd`!
 
 ## 📦 deps
