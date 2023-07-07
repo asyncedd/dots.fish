@@ -82,3 +82,10 @@ zoxide init fish | source
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# Important aliases
+# Typos
+alias :q "exit"
+alias :qa "exit"
+alias :wqa "exit"
+alias :wq "exit"
