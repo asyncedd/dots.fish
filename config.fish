@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 function fish_greeting
-    neofetch
+  pokemon-colorscripts -r
 end
 
 fish_config theme choose "Catppuccin Mocha" # Set the theme to some Catppuccin ☕
