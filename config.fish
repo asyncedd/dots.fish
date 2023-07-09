@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 function fish_greeting
-  pokemon-colorscripts -r
+    krabby random
 end
 
 fish_config theme choose "Catppuccin Mocha" # Set the theme to some Catppuccin ☕
@@ -85,7 +85,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 
 # Important aliases
 # Typos
-alias :q "exit"
-alias :qa "exit"
-alias :wqa "exit"
-alias :wq "exit"
+alias :q exit
+alias :qa exit
+alias :wqa exit
+alias :wq exit
