@@ -89,3 +89,6 @@ alias :q exit
 alias :qa exit
 alias :wqa exit
 alias :wq exit
+
+# Git
+alias g git
