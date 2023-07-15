@@ -102,6 +102,8 @@ end
 gitcfg alias.c commit
 # Add
 gitcfg alias.a add
+# Pull
+gitcfg alias.P pull
 # Push
 gitcfg alias.ps push
 # Push origin
