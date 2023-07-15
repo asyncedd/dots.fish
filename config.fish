@@ -95,11 +95,7 @@ alias g git
 
 # Simple function for ease of use
 function gitcfg
-    git config $argv
-end
-
-function acp
-    git add .; and git commit; and git push origin master
+    git config --global $argv
 end
 
 # Commit
