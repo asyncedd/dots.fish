@@ -108,6 +108,8 @@ gitcfg alias.c commit
 gitcfg alias.a add
 # powerrrrr
 gitcfg alias.acp "!git add . && git commit && git push origin master"
+# Amend
+gitcfg alias.amend "commit --amend --no-edit"
 # Pull
 gitcfg alias.P pull
 # Push
