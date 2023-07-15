@@ -106,6 +106,8 @@ gitcfg alias.ps push
 gitcfg alias.last 'log -1 HEAD'
 # Checkout
 gitcfg alias.co checkout
+# Branch
+gitcfg alias.br branch
 
 # pnpm
 alias p pnpm
