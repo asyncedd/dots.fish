@@ -93,8 +93,10 @@ alias :wq exit
 # Git
 alias g git
 
-# Simple alias for ease of use
-alias gitcfg "git config"
+# Simple function for ease of use
+function gitcfg
+    git config $argv
+end
 
 # Commit
 gitcfg alias.c commit
