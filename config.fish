@@ -92,3 +92,4 @@ alias :wq exit
 
 # Git
 alias g git
+alias p pnpm
