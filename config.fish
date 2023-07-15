@@ -93,6 +93,9 @@ alias :wq exit
 # Git
 alias g git
 
+git config --global alias.co commit
+git config --global alias.a add
+
 # pnpm
 alias p pnpm
 
