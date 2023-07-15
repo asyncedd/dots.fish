@@ -98,6 +98,7 @@ alias gitcfg "git config"
 gitcfg alias.co commit
 gitcfg alias.a add
 gitcfg alias.ps push
+gitcfg alias.last 'log -1 HEAD'
 
 # pnpm
 alias p pnpm
