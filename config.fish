@@ -92,4 +92,12 @@ alias :wq exit
 
 # Git
 alias g git
+
+# pnpm
 alias p pnpm
+
+# npm
+alias n npm
+
+# nvim
+alias v nvim
