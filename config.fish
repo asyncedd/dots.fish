@@ -97,6 +97,7 @@ alias gitcfg "git config"
 
 gitcfg alias.co commit
 gitcfg alias.a add
+gitcfg alias.ps push
 
 # pnpm
 alias p pnpm
