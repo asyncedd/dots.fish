@@ -104,6 +104,10 @@ gitcfg alias.c commit
 gitcfg alias.a add
 # Push
 gitcfg alias.ps push
+# Push origin
+gitcfg alias.pso 'push origin'
+# Push origin master
+gitcfg alias.psom 'push origin master'
 # Last
 gitcfg alias.last 'log -1 HEAD'
 # Checkout
