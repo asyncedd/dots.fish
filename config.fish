@@ -93,12 +93,19 @@ alias :wq exit
 # Git
 alias g git
 
+# Simple alias for ease of use
 alias gitcfg "git config"
 
-gitcfg alias.co commit
+# Commit
+gitcfg alias.c commit
+# Add
 gitcfg alias.a add
+# Push
 gitcfg alias.ps push
+# Last
 gitcfg alias.last 'log -1 HEAD'
+# Checkout
+gitcfg alias.co checkout
 
 # pnpm
 alias p pnpm
