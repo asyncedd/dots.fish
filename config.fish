@@ -98,10 +98,16 @@ function gitcfg
     git config $argv
 end
 
+function acp
+    git add .; and git commit; and git push origin master
+end
+
 # Commit
 gitcfg alias.c commit
 # Add
 gitcfg alias.a add
+# powerrrrr
+gitcfg alias.acp "!git add . && git commit && git push origin master"
 # Pull
 gitcfg alias.P pull
 # Push
